@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="cordova.js"></script>
+    <script src="js\camerafunction.js"></script>
+    <script>
+        document.addEventListener("deviceready",onDeviceReady,false);
+    </script>
+</head>
+<body>
+    <button onclick="getCameraImage();">Tomar foto</button><br>
+    <img style="display:none; width:60px; height:60px;" id="cameraImage" src="" />
+</body>
+</html>
